@@ -1,0 +1,80 @@
+/* Toàn bộ trang */
+body {
+  font-family: Arial, sans-serif; /* Chọn font chữ Arial, nếu không có sẽ dùng nhóm sans-serif (không chân) */
+  background-color: #f8f8f8; /* Màu nền xám nhạt */
+  display: flex; /* Sử dụng Flexbox để bố trí phần tử con */
+  justify-content: center; /* Căn giữa phần tử con theo chiều ngang */
+  padding: 20px; /* Tạo khoảng trống 20px bên trong body */
+}
+
+/* Khung chính */
+.container {
+  background: white; /* Nền màu trắng cho khung */
+  width: 400px; /* Chiều rộng cố định 400px */
+  border-radius: 15px; /* Bo tròn góc 15px */
+  padding: 20px; /* Khoảng cách bên trong khung */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng mờ nhẹ (lệch dọc 2px, mờ 10px, màu đen trong suốt 10%) */
+}
+
+/* Ảnh đại diện */
+.profile-pic {
+  width: 100px; /* Chiều rộng ảnh */
+  height: 100px; /* Chiều cao ảnh */
+  border-radius: 10px; /* Bo tròn góc ảnh 10px */
+  object-fit: cover; /* Giúp ảnh bao phủ khung mà không bị méo, phần thừa bị cắt */
+}
+
+/* Tiêu đề chính */
+h2 {
+  margin-top: 0; /* Xóa khoảng cách phía trên tiêu đề */
+}
+
+/* Thông tin cá nhân */
+.info p {
+  margin: 5px 0; /* Khoảng cách trên/dưới 5px, trái/phải 0px */
+}
+
+/* Chữ nổi bật */
+.highlight {
+  color: #007bff; /* Màu xanh dương nổi bật */
+  font-weight: bold; /* Chữ in đậm */
+}
+
+/* Nút tải CV */
+.download-btn {
+  display: inline-block; /* Cho phép phần tử hiển thị như khối nội tuyến (có thể chỉnh padding, margin) */
+  padding: 10px 20px; /* Khoảng trống bên trong: 10px trên/dưới, 20px trái/phải */
+  background-color: #2563eb; /* Màu nền xanh đậm */
+  color: white; /* Chữ màu trắng */
+  border-radius: 25px; /* Bo tròn góc nhiều tạo hình bầu */
+  text-decoration: none; /* Xóa gạch chân mặc định của thẻ a */
+  font-weight: bold; /* Chữ in đậm */
+  margin: 10px 0; /* Khoảng cách trên và dưới 10px */
+}
+
+/* Tiêu đề mục */
+.section-title {
+  color: #2563eb; /* Màu xanh dương đậm */
+  font-weight: bold; /* Chữ in đậm */
+  font-size: 18px; /* Kích thước chữ 18px */
+  margin-top: 20px; /* Khoảng cách phía trên 20px */
+}
+
+/* Mục giáo dục */
+.edu-item {
+  margin-bottom: 20px; /* Khoảng cách phía dưới giữa các mục */
+}
+
+.edu-item h4 {
+  margin: 5px 0; /* Khoảng cách trên/dưới 5px */
+}
+
+.edu-item h5 {
+  margin: 0; /* Xóa khoảng cách trên/dưới */
+  font-weight: bold; /* Chữ in đậm */
+}
+
+.edu-item p {
+  font-size: 14px; /* Kích thước chữ nhỏ hơn (14px) */
+  color: #777; /* Màu xám nhạt */
+}
